@@ -1,0 +1,77 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+root {
+	--card-width: ;
+	--card-height: ;
+}
+
+body {
+	
+	
+	
+}
+.board{
+	background-color: white;
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+	text-align: center;
+
+}
+ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+li{
+
+}
+.playArea {
+	width: 85vw;
+	height: 85vh;
+	padding: 5px;
+	border: 1px solid black;
+	display: grid;
+	grid-template-columns: repeat(7, 12.14vw);
+	grid-template-rows:12.14vh 1fr;
+	grid-row-gap: 20px;
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+}
+.aceHolder{
+	display: flex;
+	flex-direction: row;
+	grid-column-start: 1;
+	grid-column-end: -1;
+}
+/*.cardHolder{
+	display: grid;
+	grid-template-columns: repeat(7,1fr);
+	grid-template-rows: 1fr;
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+}*/
+.column {
+	background-color: white;
+	height:auto; 
+	width:auto;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: repeat(auto-fit,20px);
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+}
+.cell{
+	background-color: blue;
+	height: 5px;
+	width: 5px;
+}
+	
